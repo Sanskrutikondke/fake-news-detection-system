@@ -1,0 +1,11 @@
+# Ignore data files
+data/raw/*.csv
+data/processed/*.csv
+
+# Ignore trained models
+models/*.pkl
+
+# Ignore Python cache
+__pycache__/
+.ipynb_checkpoints/
+.env
